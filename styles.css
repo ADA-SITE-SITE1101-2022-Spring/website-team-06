@@ -1,3 +1,27 @@
-body {
-  background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;700&family=Space+Mono&display=swap');
+
+* {
+  font-family: Space Mono, Roboto Mono, sans-serif;
+  margin: 0;
 }
+
+
+/* Header */
+header {
+  position: relative;
+  padding-left: 5em;
+  margin: 5em auto;
+}
+/* End Header */
+
+/* Navbar */
+nav {
+  margin-top: 5em;
+  background-color: blue;
+  position: sticky;
+}
+nav img{
+  cursor: pointer;
+}
+
+/* End Navbar*/
