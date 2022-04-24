@@ -8,20 +8,33 @@
 
 /* Header */
 header {
+  background-color: black;
+  color: white;
+  height: 15em;
   position: relative;
   padding-left: 5em;
-  margin: 5em auto;
+  margin: 0 auto
+  
+}
+
+header h1 {
+  transform: translateY(3em);
+}
+header img {
+  background-color: white;
 }
 /* End Header */
 
 /* Navbar */
 nav {
   margin-top: 5em;
-  background-color: blue;
+  line-height: 2em;
+  background-color: white;
   position: sticky;
 }
 nav img{
   cursor: pointer;
+  height: 150px;
 }
 
 /* End Navbar*/
