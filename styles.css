@@ -5,9 +5,6 @@
   margin: 0;
 }
 
-body {
-  background-color: bisque;
-}
 /* Header */
 header {
   background-image: url(https://storage.googleapis.com/gweb-uniblog-publish-prod/images/NY741_1.29.1-hero.max-1300x1300.jpg);
@@ -32,9 +29,9 @@ header::after{
 
 header .welcome {
   max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 50px;
-    justify-content: flex-start;
+  margin: 0 auto;
+  padding: 20px 50px;
+  justify-content: flex-start;
 }
 
 header h1{
@@ -50,11 +47,13 @@ header h1{
 /* Navbar */
 nav {
   display: flex;
+  border: 1px solid black;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
   background-color: white;
-  padding: 15px;
+  position: sticky;
+  justify-content: space-between;
+  padding: 0 10px;
 }
 
 nav a{
@@ -63,7 +62,7 @@ nav a{
 }
 
 nav .logo{
-  height: 5em;
+  height: 4em;
   margin-right: 50px;
   cursor: pointer;
 }
@@ -83,15 +82,27 @@ nav ul li{
 /* Main */
 
 main{
+  background-color: bisque;
   position: relative;
   width: 100%;
   align-items: center;
   display: inline-flex;
 }
 main .member{
-  background-color: white;
   width: 25%;
   padding: 5px;
+}
+
+.top{
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.name{
+  font-size: 20px;
+}
+
+.picture{
 
 }
 /* End of Main */
@@ -110,7 +121,7 @@ footer{
   text-decoration: none;
   height: 20px;
   width: 30px;
-  font-size: 1000px;
+  font-size: 10px;
 }
 
 .fa:hover {
