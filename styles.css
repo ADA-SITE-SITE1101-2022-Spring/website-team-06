@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;700&family=Space+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Space+Mono&display=swap');
 * {
-  font-family: Space Mono, Roboto Mono, sans-serif;
+  font-family: 'Space Mono', 'Roboto Mono', sans-serif;
   margin: 0;
 }
 
@@ -84,6 +84,7 @@ main{
   border: 10px groove blue;
   background-color: red;
   border-radius: 25px;
+  font-family: sans-serif;
 }
 
 .team {
@@ -122,6 +123,7 @@ main{
 
 .info {
   text-indent: 1em;
+  font-family: 'Poppins', sans-serif;
 }
 /* End Team Section */
 
