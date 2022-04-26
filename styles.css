@@ -73,11 +73,6 @@ main{
   border: 2px solid rgba(47, 137, 221, 0.8);
 }
 
-/* Team Section */
-
-.aboutus{
-  justify-content: center;
-}
 .sectionheader {
   width: 30%;
   text-align: center;
@@ -87,6 +82,16 @@ main{
   background-color: red;
   border-radius: 25px;
   font-family: sans-serif;
+}
+
+p {
+  text-indent: 1em;
+  font-family: 'Poppins', sans-serif;
+}
+/* Team Section */
+
+.aboutus{
+  justify-content: center;
 }
 
 .team {
@@ -122,12 +127,21 @@ main{
   width: 110px;
   height: 110px;
 }
-
-.info {
-  text-indent: 1em;
-  font-family: 'Poppins', sans-serif;
-}
 /* End Team Section */
+
+/* Hour of Code section */
+
+.videocontent {
+  display: flex;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+.videocontent p{
+  max-width: 40;
+}
+
+/*End Hour of Code section */
 
 /* Footer */
 
