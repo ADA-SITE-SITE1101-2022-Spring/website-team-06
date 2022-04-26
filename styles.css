@@ -16,7 +16,6 @@ header {
   display: flex;
   max-width: 100%;
   min-height: 30em;
-  z-index: 1;
 }
 
 header::after{
@@ -28,7 +27,6 @@ header::after{
   height: 100%;
   width: 100%;
   opacity: 0.8;
-  z-index: -1;
 }
 
 /* End Header */
@@ -70,7 +68,6 @@ nav ul li{
 
 main{
   background-color: blanchedalmond;
-  border: 2px solid rgba(47, 137, 221, 0.8);
 }
 
 .sectionheader {
@@ -82,19 +79,21 @@ main{
   background-color: red;
   border-radius: 25px;
   font-family: sans-serif;
+  
 }
 
 p {
   text-indent: 1em;
   font-family: 'Poppins', sans-serif;
 }
-/* Team Section */
 
-.aboutus{
-  justify-content: center;
+hr {
+  color: black;
+  
 }
-
+/* Team Section */
 .team {
+
   position: relative;
   width: 100%;
   align-items: center;
@@ -103,11 +102,11 @@ p {
 
 .member{
   display: table-cell;
-  border: 1px solid rgba(47, 137, 221, 0.8);
-  border-radius: 15px;
   background-color: bisque;
   width: 30%;
   padding: 10px;
+  border-right: 1px solid black ;
+
 }
 
 .top{
@@ -168,11 +167,11 @@ footer{
   position: absolute;
   width: 20px;
   height: 20px;
-  border: 2px solid #000;
+  border: 2px solid rgb(0, 19, 80);
   box-sizing: border-box;
   transition: 0.1s;
   transform: translate(-50%,-50%);
   border-radius: 50%;
   pointer-events: none;
-  z-index: 2;
+  z-index: 1;
 }
