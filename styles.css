@@ -19,37 +19,16 @@ header {
 
 header::after{
   content: '';
-  background-color: white;
+  background-color: gray;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.8;
   z-index: -1;
 }
 
-header .welcome {
-  max-width: 1200px;
-  margin: 0;
-  padding: 20px 50px;
-  justify-content: flex-start;
-  width: 50%;
-}
-
-header h1{
-  color: black;
-  padding: 10px;
-  display: block;
-  width: fit-content;
-  font-size: 4rem;
-  position: relative;
-}
-
-header .biglogo{
-  margin-top: 50px;
-  width: 50%;
-}
 /* End Header */
 
 /* Navbar */
