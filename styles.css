@@ -19,7 +19,7 @@ header {
 
 header::after{
   content: '';
-  background-color: gray;
+  background-color: black;
   position: absolute;
   top: 0;
   left: 0;
@@ -69,6 +69,18 @@ nav ul li{
 /* Team Section */
 main{
   background-color: bisque;
+}
+
+.aboutus{
+}
+.aboutus h1 {
+  width: 30%;
+  text-align: center;
+  margin: 15px auto;
+  font-size: 40px;
+  border: 10px groove blue;
+  background-color: red;
+  border-radius: 25px;
 }
 
 .team {
