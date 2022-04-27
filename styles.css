@@ -206,6 +206,9 @@ footer{
   height: max-content;
 }
 
+.social-icons img{
+  width: 2em;
+}
 
 #cursor {
   position: absolute;
