@@ -199,8 +199,14 @@ footer{
 }
 
 .social-icons img{
-  width: 2em;
+  width: 20px;
+  margin: 5px;
 }
+
+footer p{
+  padding-right: 1%;
+}
+
 
 #cursor {
   position: absolute;
