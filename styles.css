@@ -52,19 +52,45 @@ header::after{
   color: white;
 }
 
-.codecademy{
-position: relative;
-display: inline-block;
-color: white;
-text-decoration: none;
-border: 2px solid white;
-padding: 10px 25px;
-font-size: 14px;
-background: transparent;
+.bannertext {
+  max-width: 40%;
 
 }
 
-.codecademy:hover{
+.bannertext h1{
+  display: block;
+  width: fit-content;
+  font-size: 4rem;
+  position: relative;
+  color: transparent;
+  animation: text_reveal .5s ease forwards;
+  margin-left: 50px;
+  animation-delay: 1s;
+}
+
+.bannertext h1 span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: rgb(13, 0, 255);
+  animation: text_reveal_box 1s ease;
+  animation-delay: .5s;
+}
+
+.introduction{
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 10px 25px;
+  font-size: 14px;
+  background: transparent;
+}
+
+.introduction:hover{
   border: 2px solid #b73127;
   background: #b73127;
   transition: 1s;
@@ -107,7 +133,9 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: #f21708;
+  background-color: #f21708;
+  border-radius: 20px;
+  padding: 5px;
   transition: 1s;
   z-index: 1;
 }
@@ -189,6 +217,34 @@ hr {
 
 /*End Hour of Code section */
 
+/* Our Project */
+.projectinfo {
+  background-image: url(./img/web-development.webp);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  min-height: 30em;
+  z-index: 1;
+}
+
+.projectinfo::after{
+  content: '';
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+/* End Our Project */
+
 /* Footer */
 
 footer{
@@ -196,6 +252,7 @@ footer{
   padding: 30px;
   background-color: rgba(47, 137, 221, 0.8);
   text-align: center;
+  align-items: center;
 }
 
 .social-icons img{
@@ -214,3 +271,21 @@ footer{
   pointer-events: none;
   z-index: 1;
 }
+
+/* Animation */
+@keyframes text_reveal_box{
+  50%{
+      width: 100%;
+      left: 0;
+  }
+  100%{
+      width: 0;
+      left:100%;
+  }
+}
+@keyframes text_reveal{
+  100%{
+      color: white;
+  }
+}
+/* End Animation */
