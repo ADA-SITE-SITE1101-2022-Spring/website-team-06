@@ -5,4 +5,5 @@ document.addEventListener('mousemove', function(e) {
     var y = e.pageY
     cursor.style.left = x + "px"
     cursor.style.top = y + "px"
+
 })

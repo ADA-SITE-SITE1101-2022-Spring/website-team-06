@@ -33,14 +33,7 @@ header::after{
 
 /* Navbar */
 nav {
-  display: flex;
-  border: 1px solid black;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: white;
-  position: relative;
-  justify-content: space-between;
-  padding: 0 10px;
+  background-color: black;
 }
 
 nav a{
@@ -49,20 +42,36 @@ nav a{
 }
 
 nav .logo{
+  background-color: white;
   height: 4em;
-  margin-right: 50px;
+  padding: 5px;
+  border-radius: 20%;
   cursor: pointer;
 }
 
+nav .logo:hover {
+  opacity: 0.5;
+}
+
 nav ul{
-  list-style: none;
+  display: flex;
+  list-style-type: none;
   display: flex;
   gap: 25px;
+  margin: 0.5em auto;
+  font-size: 25px;
+  float: right;
+  gap: 25px;
 }
-nav ul li{
+nav li{
   background-color: black;
   color: white;
   padding: 2px;
+}
+nav li:hover {
+  transition-duration: 1s;
+  background-color: rgb(110, 110, 110);
+  border-radius: 15px;
 }
 /* End Navbar*/
 
@@ -106,7 +115,6 @@ hr {
   width: 30%;
   padding: 10px;
   border-right: 1px solid black ;
-
 }
 
 .top{
@@ -117,6 +125,7 @@ hr {
 
 .name{
   margin: 25px 20%;
+  max-width: 60%;
   align-items: cen;
 }
 
@@ -151,16 +160,12 @@ footer{
   text-align: center;
 }
 
-.fa {
-  text-decoration: none;
-  height: 20px;
-  width: 30px;
-  font-size: 10px;
+.social-icons img {
+  width: 25px;
 }
 
-.fa:hover {
-  color: black;
-  opacity: 0.7;
+.social-icons:hover {
+  opacity: 0.5;
 }
 
 #cursor {
@@ -173,5 +178,5 @@ footer{
   transform: translate(-50%,-50%);
   border-radius: 50%;
   pointer-events: none;
-  z-index: 1;
+  z-index: 4;
 }
