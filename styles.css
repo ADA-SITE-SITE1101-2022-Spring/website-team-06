@@ -205,6 +205,10 @@ hr {
 
 /* Hour of Code section */
 
+.hourofcode {
+  align-items: center;
+  font-size: 1.5em;
+}
 .videocontent {
   display: flex;
   align-items: center;
@@ -248,7 +252,7 @@ hr {
 /* Footer */
 
 footer{
-  position: relative;
+  width: 100%;
   padding: 30px;
   background-color: rgba(47, 137, 221, 0.8);
   text-align: center;
