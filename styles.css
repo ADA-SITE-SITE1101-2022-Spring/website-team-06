@@ -252,7 +252,7 @@ hr {
 
 footer{
   width: 100%;
-  padding: 30px;
+  padding-bottom: 100%;
   background-color: rgba(47, 137, 221, 0.8);
   text-align: center;
   align-items: center;
@@ -264,6 +264,7 @@ footer{
 }
 
 footer p{
+  padding-top: 50px;
   padding-right: 1%;
 }
 
