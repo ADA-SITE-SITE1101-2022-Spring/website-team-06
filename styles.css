@@ -18,6 +18,7 @@ header {
   min-height: 30em;
 }
 
+
 header::after{
   content: '';
   background-color: black;
@@ -26,8 +27,51 @@ header::after{
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.55;
 }
+
+.bannertext{
+  position: absolute;
+  color: white;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+
+.bannertext h1{
+  font-size: 50px;
+}
+
+.bannertext p{
+  margin: 10px 0 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.codecademy{
+position: relative;
+display: inline-block;
+color: white;
+text-decoration: none;
+border: 2px solid white;
+padding: 10px 25px;
+font-size: 14px;
+background: transparent;
+
+}
+
+.codecademy:hover{
+  border: 2px solid #b73127;
+  background: #b73127;
+  transition: 1s;
+  z-index: 1;
+}
+
+
 
 /* End Header */
 
@@ -151,17 +195,6 @@ footer{
   text-align: center;
 }
 
-.fa {
-  text-decoration: none;
-  height: 20px;
-  width: 30px;
-  font-size: 10px;
-}
-
-.fa:hover {
-  color: black;
-  opacity: 0.7;
-}
 
 #cursor {
   position: absolute;
