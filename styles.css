@@ -64,7 +64,7 @@ header::after{
   position: relative;
   color: transparent;
   animation: text_reveal .5s ease forwards;
-  margin-left: 50px;
+  margin-left: 80px;
   animation-delay: 1s;
 }
 
